@@ -1,0 +1,9 @@
+<h3>Representative Project Experience</h3>
+<div *ngFor="let proj of projects">
+	<h4>{{proj.name}}, {{proj.location}}</h4>
+	<ul>
+		<li>Task: {{proj.description}}</li>
+		<li>Role: Commissioning Engineer</li>
+		<li>Size: {{proj.sqft}}</li>
+	</ul>
+</div>

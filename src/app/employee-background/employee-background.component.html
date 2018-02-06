@@ -1,0 +1,15 @@
+
+<div *ngIf="employee!=null">
+  <div *ngIf="employee.education != null">
+    <h3>Education</h3>
+    <p>{{employee.education}}</p>
+  </div>
+  <div  *ngIf="employee.certificationsLong != null">
+    <h3>Certifications</h3>
+    <p>{{employee.certificationsLong}}</p>
+  </div>
+  <div *ngIf="employee.presentations != null"> 
+    <h3>Presentations</h3>
+    <p>{{employee.presentations}}</p>
+  <div>
+</div>
